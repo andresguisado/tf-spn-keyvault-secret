@@ -1,0 +1,11 @@
+rg_name                          =    "tf-keyvault"
+location                         =    "West Europe"
+kv_name                          =    "testkv"
+tenant_id                        =    ""
+object_id_1                      =    ""
+spn_name                         =    "tf-app"
+spn_scope                        =    "/subscriptions/..."#/subscriptions/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
+spn_role_definition_name         =    "Contributor"
+spn_end_date                     =    "2020-01-01T01:02:03Z"#2020-01-01T01:02:03Z  
+tf_id_secret_name                =    "tf-id"
+tf_pass_secret_name              =    "tf-pass"
