@@ -9,12 +9,12 @@ This repository performs the folowing tasks:
 
 ### Implementation
 
-1- Create a ```*.tfvars``` copiying from ```app1-template.tfvars``` and fill in the values.
+1- Create a ```my-test.tfvars``` copiying from ```app1-template.tfvars``` and fill in the values.
 
 2- ```terraform init```
 
-3- ``` terraform plan -var-file="my-file.tfvars" --out plan.out```
+3- ``` terraform plan -var-file="my-test.tfvars" --out plan.out```
 
 4- ```terraform apply plan.out```
 
-5- ```terraform destroy -var-file="my-file.tfvars"```
+5- ```terraform destroy -var-file="my-test.tfvars"```

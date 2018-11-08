@@ -4,6 +4,8 @@
 # .tfstate files
 *.tfstate
 *.tfstate.*
+*.out
 
 # .tfvars files
+my-test.tfvars
 #.tfvars
